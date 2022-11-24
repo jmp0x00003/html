@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-@@include('blocks/head.html')
+<head>
+  <meta charset="UTF-8">
+  <title>Lenni Art</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+
+</head>
 
 <body class="body">
 
-  @@include('blocks/page-header.html')
+  <header class="page-header">
+    <div class="page-header__container">
+      <a href="index.html" class="page-header__logo">
+        <svg class="page-header__logo-icon" width="202" height="147">
+          <use xlink:href="assets/icons/symbols.svg#logo">
+        </svg>
+        <div class="main">
+          header
+        </div>
+        <main class="main">
+          main
+        </main>
+        <div class="page-footer">
+          <div class="page-header__container">
+
+
+            </svg>
+          </div>
+        </div>
+      </a>
+
+      <nav class=".page-header__nav">
+        <a href="#" class="age-header__nav-link">events</a>
+        <a href="#" class="age-header__nav-link">blog</a>
+        <a href="#" class="age-header__nav-link">about us</a>
+        <a href="#" class="age-header__nav-link">contacts</a>
+      </nav>
+
+      <div class="page-header__right-block">
+
+      </div>
+
+      <a href="#" class="page-header__btn">
+        Войти
+      </a>
+
+    </div>
+  </header>
 
   <main class="main">
     <div class="event">

@@ -1,6 +1,6 @@
 import gulp from "gulp";
 import del from "del";
-import include from "gulp-format-html";
+import include from "gulp-file-include";
 import plumber from "gulp-plumber";
 import formatHtml from "gulp-format-html";
 import less from "gulp-less";
